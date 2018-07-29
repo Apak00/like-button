@@ -1,4 +1,4 @@
-## Instructions to install:
+## Instructions to run:
 - you need node.js installed in your environment
 - clone repo then cd inside project
 - run `npm install`
