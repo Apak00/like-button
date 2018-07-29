@@ -26,7 +26,7 @@ class App extends Component {
   activateCounter = () => {
     clearTimeout(this.state.timeoutId);
     clearTimeout(this.state.biggerId);
-    let nextCount = this.state.count + 1;
+    let nextCount = this.state.count < countLimit ? this.state.count + 1 : countLimit;
     let backgroundImage = this.getBackgroundImage(nextCount);
     this.setState({
       in: true,
