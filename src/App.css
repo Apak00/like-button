@@ -1,0 +1,51 @@
+.App {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.like-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: mediumseagreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: solid 1px #f2f2f2;
+}
+
+.fa-thumbs-up{
+  color: #f2f2f2;
+}
+
+.countered{
+  position: absolute;
+  left: 35px;
+  color: white;
+  border-radius: 50%;
+  background-color: mediumseagreen;
+  padding: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 10px;
+  opacity: 1;
+  top: -20px;
+}
+
+.circlerCounter{
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: rgb(95, 142, 241);
+  position: absolute;
+  z-index: -1;
+}
